@@ -1,0 +1,39 @@
+:attr: test
+:config: balancer_page
+
+= Тест AsciiDoc
+Balancer <balancer@balancer.ru>
+v1.0 2015-07-02
+:toc: right
+
+
+
+=== Код
+
+NOTE: в стиле Markdown
+
+```ruby
+require 'sinatra'
+
+get '/hi' do
+  "Hello World!"
+end
+```
+
+=== Цитаты
+
+WARNING: Цитаты в стиле `Markdown` работают не во всех парсерах.
+
+> Цитата
+> в формате Markdown
+
+=== Формулы
+
+latexmath:[$R_x = 10.0 \times \sin(R_\phi)$]
+
+asciimath:[d/dxf(x)=lim_(h->0)(f(x+h)-f(x))/h]
+
+=== Ссылки
+
+* http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
+* http://www.methods.co.nz/asciidoc/
