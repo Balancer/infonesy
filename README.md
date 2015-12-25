@@ -33,4 +33,6 @@
 
 ### Социальные сети
 
-* В процессе реализации
+* [Facebook](https://www.facebook.com/groups/1510899102543789/)
+* [Вконтакте](http://vk.com/infonesy)
+* [Google+](https://plus.google.com/communities/101737349939842192089)
