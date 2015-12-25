@@ -25,14 +25,7 @@ LiveStreet).
 - Решено в качестве первых площадок для отработки взаимодействия контента начать с проектов:
   - **Infonesy**. Собственно, будущий сайт с материалами проекта.
   - **[Tanzpol.org](http://www.tanzpol.org/)**. Попытаться реализовать новости главной страницы через обмен данными с форумами Авиабазы.
-  - **[Airbase.ru](http://www.airbase.ru/)**. Перевести запланированную
-
-    [работу со статическим контентом](http://www.wrk.ru/support/2015/02/t87006--novyj-format-razrabotki-sajtov-i-airbase-ru-v-chastnosti.853.html)
-
-    в вариант работы в рамках новой системы.
-
+  - **[Airbase.ru](http://www.airbase.ru/)**. Перевести запланированную [работу со статическим контентом](http://www.wrk.ru/support/2015/02/t87006--novyj-format-razrabotki-sajtov-i-airbase-ru-v-chastnosti.853.html) в вариант работы в рамках новой системы.
   - **[bors-wiki](https://bitbucket.org/Balancer/bors-core/wiki/)**.
-
-    Попытаться Wiki с материалами преобразовать в новый формат.
-
+  - Попытаться Wiki с материалами преобразовать в новый формат.
 - Заведён [репозиторий на GitHub](https://github.com/Balancer/infonesy)
