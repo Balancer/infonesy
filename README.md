@@ -15,7 +15,7 @@
 ## Ссылки
 
 * [Новости](https://github.com/Balancer/infonesy/blob/master/news.md)
-* [Wiki](wiki/) — в процессе разработки
+* [Wiki](https://github.com/Balancer/infonesy/wiki) — в процессе разработки
 
 ### На [Форумах Авиабазы](http://forums.balancer.ru):
 
