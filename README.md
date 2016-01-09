@@ -19,6 +19,7 @@
 
 ### На [Форумах Авиабазы](http://forums.balancer.ru):
 
+* [Отдельный форум по Infonesy и P2P-системам](http://www.wrk.ru/forums/viewforum.php?id=218)
 * [Мысли вслух по поводу распределённой социальной системы](http://www.wrk.ru/support/2015/06/t73677--mysli-vslukh-po-povodu-raspredelyonnoj-sotsialnoj-sistemy.html) (с 24.11.2010)
 * [Авиабаза распределённая](http://forums.balancer.ru/support/2014/04/t89569--aviabaza-raspredelyonnaya.html)
 * [Распределённая система: нужно придумывать название](http://www.wrk.ru/tech/forum/2015/12/t92293,2--raspredelyonnaya-sistema-nuzhno-pridumyvat-nazvanie.8115.html) (с 14.12.2015)
