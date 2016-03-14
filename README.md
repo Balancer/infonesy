@@ -16,7 +16,7 @@
 
 * [Новости](https://github.com/Balancer/infonesy/blob/master/news.md)
 * [Wiki](https://github.com/Balancer/infonesy/wiki) — в процессе разработки
-* [Адаптеры форумов и соцсетей](https://github.com/Balancer/infonesy-bors)
+* [Адаптеры форумов и соцсетей](https://github.com/Balancer/infonesy-bors) (репо с кодом)
 
 ### На [Форумах Авиабазы](http://forums.balancer.ru):
 
