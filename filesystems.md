@@ -1,4 +1,4 @@
-﻿# Выбор файловой системы
+# Выбор файловой системы
 
 ## Tahoe-LFS
 
@@ -9,6 +9,7 @@
 https://tahoe-lafs.org/trac/tahoe-lafs/wiki/FAQ
 
 ## Прочие системы
+
 * [OFFSystem](http://en.wikipedia.org/wiki/OFFSystem) — The Owner-Free File System
 (OFF System, or OFF for short) is a peer-to-peer distributed file system
 in which all shared files are represented by randomized multi-used data blocks.
