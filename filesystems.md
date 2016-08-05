@@ -21,3 +21,4 @@ nodes is required. OFF claims to have been created with the expressed intention
 ## Ссылки
 
 * [Сохраняем безопасно свои данные: p2p файловая система с шифрованием в облаке](http://habrahabr.ru/post/123936/)
+* [Comparison of distributed file systems](https://en.wikipedia.org/wiki/Comparison_of_distributed_file_systems)
