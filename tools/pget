@@ -1,0 +1,57 @@
+#!/bin/bash
+
+export LANG=C.UTF-8
+export LANGUAGE=C.UTF-8
+export LC_ALL=C.UTF-8
+
+TITLE=$(wget --quiet -O - "$1" \
+  | paste -s -d " "  \
+  | sed -n -e 's!.*<head[^>]*>\(.*\)</head>.*!\1!p' \
+  | sed -n -e 's!.*<title>\(.*\)</title>.*!\1!p' \
+  | perl -C -MHTML::Entities -pe 'decode_entities($_);')
+
+echo "Load [$TITLE]"
+
+NAME=$(basename "$1")
+
+DIR=$TITLE
+
+if [[ "$TITLE" == "" ]]; then
+    DIR=$NAME
+fi
+
+DIR=`echo $DIR | sed -re "s/[ \/\|\<\>\!'\",]+/-/g"`
+
+INDEX=`echo "$1" | sed -re "s/^[a-z]+:\/\///"`
+
+RE='/$'
+if [[ $INDEX =~  $RE ]]; then
+    INDEX=${INDEX}index.html
+fi
+
+RE='\.html$'
+if [[ ! $INDEX =~  $RE ]]; then
+    INDEX=${INDEX}.html
+fi
+
+echo save $INDEX to $DIR
+
+mkdir -p -- "${DIR}/wget"
+cd -- "$DIR"
+
+echo "$1" > wget/url.txt
+
+wget --convert-links --backup-converted \
+    --html-extension --restrict-file-names=windows \
+    --content-disposition --adjust-extension -o wget/wget.log \
+    -N --no-check-certificate --page-requisites -S --span-hosts -e robots=off \
+    "$1"
+
+if [[ ! -e index.html ]]; then
+    echo -e "<meta HTTP-EQUIV=\"Refresh\" CONTENT=\"0; URL=$INDEX\">\n<a href=\"$INDEX\">$TITLE</a>" > index.html
+fi
+
+cd ..
+IPFS=`ipfs add -rw -- $DIR|tail -n1|awk '{print $2}'`
+
+echo http://gateway.ipfs.io/ipfs/$IPFS
